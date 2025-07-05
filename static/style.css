@@ -1,0 +1,25 @@
+.c-item{
+   height: 70vh;
+   align-items: center;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+#head1{
+    background-image: linear-gradient(rgb(45, 238, 238),rgb(224, 174, 37));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: x-large;
+    font-weight: bold ;
+}
+.nav{
+    background-image: linear-gradient(rgb(45, 238, 238),rgb(224, 174, 37));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: large;
+    padding-left: 2vh;
+}
+.space{
+    padding: 2rem;
+}
