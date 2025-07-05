@@ -25,3 +25,15 @@ A simple web-based car rental service built with **Django** and **Bootstrap**, w
 - 📱 **Responsive UI**: Clean and mobile-friendly layout using **Bootstrap**.
 - ⚙️ **Lightweight Implementation**: No database required; great for learning Django fundamentals.
 - 🎯 Easy navigation with simple routing and Django templating.
+
+----
+
+## 🚀 How to Set Up and Run the Project
+
+Follow these steps to get the project running on your local machine:  
+**Step 1** Transfer all the files into a Single Folder.  
+**Step 2** Make sure to install Django.  
+**Step 3** Open the console for the above created folder.  
+**Step 4** Run "python manage.py makemigrations" and "python manage.py migrate".  
+**Step 5** Run "python manage.py createsuperuser".  
+**Step 6** Run "python manage.py runserver".  
