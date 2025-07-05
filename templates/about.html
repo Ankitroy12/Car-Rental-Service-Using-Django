@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="{% static "abt.jpg" %}" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome To About Section</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container">
+  <h1>About Us</h1>
+<h2>Welcome to EliteRides</h2>
+    <p>Your trusted partner for hassle-free car rentals!</p>
+
+    <p>We believe that your journey should be as enjoyable as your destination. Whether you're planning a road trip, need a reliable car for business travel, or simply want a ride for special occasions, we’re here to make it easy, convenient, and stress-free.</p>
+
+    <h3>Who We Are</h3>
+    <p>At EliteRides, we are passionate about providing exceptional service to every customer. With a fleet of well-maintained vehicles and a commitment to customer satisfaction, we aim to redefine your car rental experience.</p>
+
+    <h3>Why Choose Us?</h3>
+    <ul>
+        <li><strong>Wide Range of Vehicles</strong>: From compact cars and SUVs to luxury sedans and vans, we have a vehicle for every need and budget.</li>
+        <li><strong>Affordable Rates</strong>: Enjoy competitive pricing without compromising on quality or reliability.</li>
+        <li><strong>Flexible Rentals</strong>: Whether you need a car for a day, a week, or longer, our flexible rental plans have you covered.</li>
+        <li><strong>Customer-Centric Service</strong>: Our friendly and knowledgeable team is here to assist you every step of the way, ensuring a seamless experience.</li>
+        <li><strong>Safety First</strong>: Every car in our fleet undergoes regular maintenance and rigorous inspections to ensure your safety on the road.</li>
+    </ul>
+
+    <h3>Our Mission</h3>
+    <p>We’re committed to delivering freedom and flexibility, enabling our customers to explore new places, fulfill their goals, and create unforgettable memories.</p>
+
+    <h3>Join Us on the Journey</h3>
+    <p>Wherever life takes you, EliteRides is here to provide the perfect set of wheels for your adventure. Start your journey today with confidence, convenience, and style.</p>
+    </div>
+{% endblock body%}

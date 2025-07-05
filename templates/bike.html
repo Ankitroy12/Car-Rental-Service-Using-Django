@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="{% static "bike.jpg" %}" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Welcome To Bikes Section</h5>
+        <p>Find Brands like Royal Enfield,TVS,BMW And Many More</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "ninja.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kawasaki Ninja H2</h5>
+            <p class="card-text">Rs 2000/day</p>
+            <a href="{% url 'contact' %}?car=Kawasaki Ninja H2(Rs 2000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "bmwbk.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BMW S1000RR</h5>
+            <p class="card-text">Rs 1500/day</p>
+            <a href="{% url 'contact' %}?car=BMW S1000RR(Rs 1500/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "rf.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Royal Enfield Super Meteor 650</h5>
+            <p class="card-text">Rs 500/day</p>
+            <a href="{% url 'contact' %}?car=Royal Enfield Super Meteor 650(Rs 500/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "apc.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TVS Apache RR 310</h5>
+            <p class="card-text">Rs 400/day</p>
+            <a href="{% url 'contact' %}?car=TVS Apache RR 310(Rs 400/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "tri.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Triumph Bonneville Bobber</h5>
+            <p class="card-text">Rs 550/day</p>
+            <a href="{% url 'contact' %}?car=Triumph Bonneville Bobber(Rs 550/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "ntork.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TVS NTORQ 125</h5>
+            <p class="card-text">Rs 250/day</p>
+            <a href="{% url 'contact' %}?car=TVS NTORQ 125(Rs 250/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "burg.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Suzuki Burgman Street 125</h5> 
+            <p class="card-text">Rs 250/day</p>
+            <a href="{% url 'contact' %}?car=Suzuki Burgman Street 125(Rs 250/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "activa.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Honda Activa 6G </h5>
+            <p class="card-text">Rs 200/day</p>
+            <a href="{% url 'contact' %}?car=Honda Activa 6G(Rs 200/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock body%} 

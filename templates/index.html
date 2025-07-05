@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block body%}
+{% load static %}
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner ">
+      <div class="carousel-item active c-item">
+        <img src="{% static "wp4289722-bmw-headlights-wallpapers.jpg" %}" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Want A Car For Rent?</h5>
+          <p>Don't Worry here you will find any car you want</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="{% static "pexels-lynxexotics-3802510.jpg" %}" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Want To Rent A Lamborgihini?</h5>
+          <p>Guess What You can find it here</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="{% static "pexels-rubaitulazad-20707193.jpg" %}" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Want To Rent A Budget Car?</h5>
+          <p>You will get car of any price here</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="space"></div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="card c-item" style="width: 18rem;">
+            <img src="{% static "koe.jpg" %}" class="card-img-top c-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Luxurious Cars</h5>
+              <p class="card-text">Get Luxurious Cars Of Your Choice</p>
+              <a href="/luxurious" class="btn btn-primary">Book</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card c-item" style="width: 18rem;">
+            <img src="{% static "bmwm8.jpg" %}" class="card-img-top c-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Premium Cars</h5>
+              <p class="card-text">Get Premium Cars Of Your Choice</p>
+              <a href="/premium" class="btn btn-primary">Book</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card c-item" style="width: 18rem;">
+            <img src="{% static "pexels-rubaitulazad-20707193.jpg" %}" class="card-img-top c-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget Cars</h5>
+              <p class="card-text">Get Budget Cars Of Your Choice</p>
+              <a href="/budget" class="btn btn-primary">Book</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card c-item" style="width: 18rem;">
+            <img src="{% static "ninja.jpg" %}" class="card-img-top c-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bikes</h5>
+              <p class="card-text">Get Bikes Of Your Choice</p>
+              <a href="/bike" class="btn btn-primary">Book</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+{% endblock body%}

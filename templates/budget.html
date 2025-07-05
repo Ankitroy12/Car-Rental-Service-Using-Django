@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="{% static "bud.jpg" %}" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Welcome To Budget Cars Section</h5>
+        <p>Find Brands like Hyundai,Mahindra,Tata,Suzuki And Many More</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "hyun.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hyundai VERNA</h5>
+            <p class="card-text">Rs 1200/day</p>
+            <a href="{% url 'contact' %}?car=Hyundai VERNA(Rs 1200/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "pexels-rubaitulazad-20707193.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mahindra Thar</h5>
+            <p class="card-text">Rs 2000/day</p>
+            <a href="{% url 'contact' %}?car=Mahindra Thar(Rs 2000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "inn.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Toyota Innova</h5>
+            <p class="card-text">Rs 1400/day</p>
+            <a href="{% url 'contact' %}?car=Toyota Innova(Rs 1400/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "tata.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tata NEXON</h5>
+            <p class="card-text">Rs 1000/day</p>
+            <a href="{% url 'contact' %}?car=Tata NEXON(Rs 1000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "kia.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kia Seltos</h5>
+            <p class="card-text">Rs 1000/day</p>
+            <a href="{% url 'contact' %}?car=Kia Seltos(Rs 1000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "honda.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Honda City</h5>
+            <p class="card-text">Rs 1000/day</p>
+            <a href="{% url 'contact' %}?car=Honda City(Rs 1000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "swift.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Swift Dzire</h5> 
+            <p class="card-text">Rs 900/day</p>
+            <a href="{% url 'contact' %}?car=Swift Dzire(Rs 900/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "citron.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Citroen Aircross</h5>
+            <p class="card-text">Rs 950/day</p>
+            <a href="{% url 'contact' %}?car=Citroen Aircross(Rs 950/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock body%} 

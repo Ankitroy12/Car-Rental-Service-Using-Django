@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="{% static "luxall.jpg" %}" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Welcome To Luxurious Cars Section</h5>
+        <p>Find Brands like Lamborgihini, Koenigsegg, Bugatti, Rolls Royce, And Many More</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "koe.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Koenigsegg Gemera</h5>
+            <p class="card-text">Rs 50000/day</p>
+            <a href="{% url 'contact' %}?car=Koenigsegg Gemera(Rs 50000/day)" class="btn btn-primary"" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "bug.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bugatti Chiron</h5>
+            <p class="card-text">Rs 30000/day</p>
+            <a href="{% url 'contact' %}?car=Bugatti Chiron(Rs 30000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "rolls.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rolls Royce Phantom</h5>
+            <p class="card-text">Rs 25000/day</p>
+            <a href="{% url 'contact' %}?car=Rolls Royce Phantom(Rs 25000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "ferrari.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ferrari 488 GTB</h5>
+            <p class="card-text">Rs 22000/day</p>
+            <a href="{% url 'contact' %}?car=Ferrari 488 GTB(Rs 22000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Aston.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Aston Martin Vulcan</h5>
+            <p class="card-text">Rs 35000/day</p>
+            <a href="{% url 'contact' %}?car=Aston Martin Vulcan(Rs 35000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "pagani.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pagani Huayra</h5>
+            <p class="card-text">Rs 30000/day</p>
+            <a href="{% url 'contact' %}?car=Pagani Huayra(Rs 30000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "lamb.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lamborghini Aventador</h5> 
+            <p class="card-text">Rs 27000/day</p>
+            <a href="{% url 'contact' %}?car=Lamborghini Aventador(Rs 27000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Bentley.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bentley Continental GT</h5>
+            <p class="card-text">Rs 29000/day</p>
+            <a href="{% url 'contact' %}?car=Bentley Continental GT(Rs 29000/day)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock body%} 
