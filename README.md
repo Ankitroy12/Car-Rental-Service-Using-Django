@@ -2,6 +2,13 @@
 
 A simple web-based car rental service built with **Django** and **Bootstrap**, where users can browse and rent cars based on their preferences. This project demonstrates the core functionality of a rental platform without using a backend database — data is stored in django admin page.
 
+<img src="ss/Screenshot (151).png" alt="App Screenshot"/>
+
+<img src="ss/Screenshot (152).png" alt="App Screenshot"/>
+
+<img src="ss/Screenshot (153).png" alt="App Screenshot"/>
+
+
 ---
 
 ## 🔧 Technologies Used
